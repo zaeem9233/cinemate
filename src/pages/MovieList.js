@@ -2,6 +2,10 @@ import React from 'react'
 
 export const MovieList = () => {
   return (
-    <div>MovieList</div>
+    <main>
+      <div className='text-2xl p-10 bg-lime-500 border-2 border-green-900 mx-4'>
+        MovieList
+      </div> 
+    </main>
   )
 }
