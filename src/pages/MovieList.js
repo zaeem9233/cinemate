@@ -1,11 +1,21 @@
 import React from 'react'
+import { Card } from '../components/index'
 
 export const MovieList = () => {
   return (
     <main>
-      <div className='text-2xl p-10 bg-lime-500 border-2 border-green-900 mx-4'>
-        MovieList
-      </div> 
+      <section className='max-w-7xl mx-auto py-7'>
+        <div className='flex justify-center flex-wrap'>
+
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+
+        </div>
+      </section>
     </main>
   )
 }
