@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg dark:bg-gray-900 m-4">
+    <footer className="bg-white dark:bg-gray-900">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <NavLink to="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -19,7 +19,7 @@ export const Footer = () => {
                         <Link to="/movies/popular" className="hover:underline me-4 md:me-6">Popular</Link>
                     </li>
                     <li>
-                        <Link to="/movies/top" className="hover:underline me-4 md:me-6">Top</Link>
+                        <Link to="/movies/top" className="hover:underline me-4 md:me-6">Top Rated</Link>
                     </li>
                     <li>
                         <Link to="/movies/upcoming" className="hover:underline">Upcoming</Link>
