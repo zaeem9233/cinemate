@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Card } from '../components/index'
-import { useFetch } from '../hooks/useFetch'
+import { useFetch, useTitle } from '../hooks'
 
-export const MovieList = ({apiPath}) => {
-
+export const MovieList = ({apiPath, title}) => {
   const { data } = useFetch(apiPath);
+  const pageTitle = useTitle(`${title} - Cinemate`);
+ 
 
   return (
     <main>

@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 export const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-900 border-t-2 border-gray-200 dark:border-gray-400">
-        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="w-full mx-auto p-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
                 <NavLink to="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                     <img src={Logo} className="h-8" alt="Flowbite Logo" />

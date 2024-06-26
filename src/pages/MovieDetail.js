@@ -19,7 +19,9 @@ export const MovieDetail = () => {
     fetchMovie();
   }, []);
 
-  console.log(movie.genres);
+  useEffect(() => {
+    document.title = `${movie.title} - Cinemate`;
+  }, [movie]);
 
 
   return (
