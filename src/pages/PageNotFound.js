@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PageNotFoundImage from '../assets/images/pagenotfound.png'
 import { Link } from 'react-router-dom'
 import { Button } from '../components'
 import { useTitle } from '../hooks'
 
 export const PageNotFound = () => {
-  const pageTitle = useTitle(`Page Not Found - Cinemate`);
+  useTitle(`Page Not Found - Cinemate`);
 
   return (
     <main>
@@ -13,7 +13,7 @@ export const PageNotFound = () => {
         <div className='flex flex-col items-center my-4'>
           <p className='text-7xl text-gray-700 font-bold my-10 dark:text-gray-50 '>404, Ooops!</p>
           <div className='max-w-lg'>
-            <img className='rounded shadow-sm' src={PageNotFoundImage} alt="Page Not Found Image" />
+            <img className='rounded shadow-sm' src={PageNotFoundImage} alt="Page Not Found" />
           </div>
         </div>
         <div className='flex justify-center my-4'>

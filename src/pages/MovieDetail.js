@@ -11,13 +11,14 @@ export const MovieDetail = () => {
   
   useEffect(() => {
     async function fetchMovie(){
+      // eslint-disable-next-line
       const response = await fetch(`https://api.themoviedb.org/3/movie/${params.id}?api_key=${process.env.REACT_APP_API_KEY}`);
       const json = await response.json();
       setMovie(json);
     }
 
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
   useEffect(() => {
     document.title = `${movie.title} - Cinemate`;
@@ -69,7 +70,7 @@ export const MovieDetail = () => {
           </p>
           <p className="my-4 text-left">
             <span className="mr-2 font-bold">IMDB:</span>
-            <a target="_blank" rel="noreferre" href={`https://www.imdb.com/title/${movie.imdb_id}`}>https://www.imdb.com/title/{ movie.imdb_id }</a>
+            <a target="_blank" rel="noreferrer" href={`https://www.imdb.com/title/${movie.imdb_id}`}>https://www.imdb.com/title/{ movie.imdb_id }</a>
           </p>
         </div>
       </section>
