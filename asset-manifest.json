@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zaeem9233.github.io/cinemate/static/css/main.adc5ec6b.css",
+    "main.js": "/zaeem9233.github.io/cinemate/static/js/main.8853ead8.js",
+    "static/media/backup.png": "/zaeem9233.github.io/cinemate/static/media/backup.4618793166f39aa1ff3d.png",
+    "static/media/pagenotfound.png": "/zaeem9233.github.io/cinemate/static/media/pagenotfound.28f3aa27eae97df57582.png",
+    "static/media/logo.png": "/zaeem9233.github.io/cinemate/static/media/logo.729fe42e7d23a7906fd5.png",
+    "index.html": "/zaeem9233.github.io/cinemate/index.html",
+    "main.adc5ec6b.css.map": "/zaeem9233.github.io/cinemate/static/css/main.adc5ec6b.css.map",
+    "main.8853ead8.js.map": "/zaeem9233.github.io/cinemate/static/js/main.8853ead8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adc5ec6b.css",
+    "static/js/main.8853ead8.js"
+  ]
+}
